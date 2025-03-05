@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Enhancing Data Editing in R Shiny with DTEdit",
+    "section": "",
+    "text": "Editing data tables interactively is a common requirement in Shiny applications. However, implementing CRUD (Create, Read, Update, Delete) operations manually can be complex and time taking. The DTEdit package simplifies this by extending DT to allow users to add, modify, and delete rows seamlessly.\nIn this post, we will explore DTEdit, how to use it in Shiny apps, its key features, and real-world use cases."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Enhancing Data Editing in R Shiny with DTEdit",
+    "section": "",
+    "text": "Editing data tables interactively is a common requirement in Shiny applications. However, implementing CRUD (Create, Read, Update, Delete) operations manually can be complex and time taking. The DTEdit package simplifies this by extending DT to allow users to add, modify, and delete rows seamlessly.\nIn this post, we will explore DTEdit, how to use it in Shiny apps, its key features, and real-world use cases."
+  },
+  {
+    "objectID": "index.html#what-is-dtedit",
+    "href": "index.html#what-is-dtedit",
+    "title": "Enhancing Data Editing in R Shiny with DTEdit",
+    "section": "2 What is DTEdit?",
+    "text": "2 What is DTEdit?\nDTEdit is an R package designed to provide an editable DT table in Shiny. It enables users to interactively manage tabular data without requiring complex server-side logic.\n\n2.1 Why Use DTEdit?\n\nUser-friendly data editing: Allows non-technical users to edit datasets directly.\nBuilt-in validation: Ensures data integrity.\nDatabase integration: Can connect to SQL databases for persistent data storage."
+  },
+  {
+    "objectID": "index.html#getting-started-with-dtedit",
+    "href": "index.html#getting-started-with-dtedit",
+    "title": "Enhancing Data Editing in R Shiny with DTEdit",
+    "section": "3 Getting Started with DTEdit",
+    "text": "3 Getting Started with DTEdit\n\n3.1 Installation\nTo install DTEdit, use the following commands:\ninstall.packages(\"devtools\")\ndevtools::install_github(\"jwilber/dtedit\")\n\n\n3.2 Basic Implementation in Shiny\nBelow is a simple Shiny app demonstrating DTEdit:"
+  },
+  {
+    "objectID": "index.html#advanced-features-of-dtedit",
+    "href": "index.html#advanced-features-of-dtedit",
+    "title": "Enhancing Data Editing in R Shiny with DTEdit",
+    "section": "4 Advanced Features of DTEdit",
+    "text": "4 Advanced Features of DTEdit\n\n4.1 Customizing Inputs\nDTEdit allows custom input types, such as dropdowns or checkboxes, to be used for data entry.\n\n\n4.2 Data Validation\nYou can define validation rules to prevent incorrect data entries.\n\n\n4.3 Database Integration\nDTEdit can be connected to a PostgreSQL or SQLite database to persist user edits."
+  },
+  {
+    "objectID": "index.html#real-world-use-cases",
+    "href": "index.html#real-world-use-cases",
+    "title": "Enhancing Data Editing in R Shiny with DTEdit",
+    "section": "5 Real-World Use Cases",
+    "text": "5 Real-World Use Cases"
+  },
+  {
+    "objectID": "index.html#comparison-with-other-methods",
+    "href": "index.html#comparison-with-other-methods",
+    "title": "Enhancing Data Editing in R Shiny with DTEdit",
+    "section": "6 Comparison with Other Methods",
+    "text": "6 Comparison with Other Methods"
+  },
+  {
+    "objectID": "index.html#conclusion",
+    "href": "index.html#conclusion",
+    "title": "Enhancing Data Editing in R Shiny with DTEdit",
+    "section": "7 Conclusion",
+    "text": "7 Conclusion"
+  }
+]
